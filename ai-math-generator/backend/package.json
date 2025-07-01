@@ -1,0 +1,29 @@
+{
+  "name": "studyaid-backend",
+  "version": "1.0.0",
+  "description": "StudyAid数学問題生成API",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["math", "education", "api", "studyaid"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "mathjs": "^12.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/express": "^4.17.21",
+    "@types/cors": "^2.8.17",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2",
+    "nodemon": "^3.1.0"
+  }
+}

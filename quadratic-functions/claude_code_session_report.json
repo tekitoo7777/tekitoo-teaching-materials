@@ -1,0 +1,101 @@
+{
+  "session_summary": {
+    "start_time": "2025-05-29T22:26:52.120320",
+    "end_time": "2025-05-29T22:26:52.379725",
+    "duration_seconds": 0.259388,
+    "scenarios_completed": 3
+  },
+  "interactions": [
+    {
+      "scenario": "標準設定",
+      "parameters": {
+        "linear_a": 2,
+        "quad_a": 2,
+        "name": "標準設定"
+      },
+      "insights": {
+        "linear": {
+          "position_6s": 12,
+          "velocity": 2,
+          "acceleration": 0,
+          "distance_traveled": 12
+        },
+        "quadratic": {
+          "position_6s": 72,
+          "velocity_6s": 24,
+          "acceleration": 4,
+          "distance_traveled": 72
+        },
+        "comparison": {
+          "position_difference": 60,
+          "velocity_difference": 22,
+          "acceleration_difference": 4
+        }
+      },
+      "timestamp": "2025-05-29T22:26:52.346377"
+    },
+    {
+      "scenario": "高速・低加速",
+      "parameters": {
+        "linear_a": 3,
+        "quad_a": 1,
+        "name": "高速・低加速"
+      },
+      "insights": {
+        "linear": {
+          "position_6s": 18,
+          "velocity": 3,
+          "acceleration": 0,
+          "distance_traveled": 18
+        },
+        "quadratic": {
+          "position_6s": 36,
+          "velocity_6s": 12,
+          "acceleration": 2,
+          "distance_traveled": 36
+        },
+        "comparison": {
+          "position_difference": 18,
+          "velocity_difference": 9,
+          "acceleration_difference": 2
+        }
+      },
+      "timestamp": "2025-05-29T22:26:52.362932"
+    },
+    {
+      "scenario": "低速・高加速",
+      "parameters": {
+        "linear_a": 1,
+        "quad_a": 3,
+        "name": "低速・高加速"
+      },
+      "insights": {
+        "linear": {
+          "position_6s": 6,
+          "velocity": 1,
+          "acceleration": 0,
+          "distance_traveled": 6
+        },
+        "quadratic": {
+          "position_6s": 108,
+          "velocity_6s": 36,
+          "acceleration": 6,
+          "distance_traveled": 108
+        },
+        "comparison": {
+          "position_difference": 102,
+          "velocity_difference": 35,
+          "acceleration_difference": 6
+        }
+      },
+      "timestamp": "2025-05-29T22:26:52.379697"
+    }
+  ],
+  "learning_outcomes": [
+    "一次関数と二次関数の違いを理解",
+    "物理的意味（等速・等加速度運動）を把握",
+    "実世界での応用例を学習",
+    "数値的分析手法を習得",
+    "Claude AI統合機能を体験"
+  ]
+}

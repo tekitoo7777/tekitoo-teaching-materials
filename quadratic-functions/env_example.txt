@@ -1,0 +1,15 @@
+# Gemini AI API キー設定
+# Google AI Studio (https://makersuite.google.com/app/apikey) で取得
+GEMINI_API_KEY=your_gemini_api_key_here
+
+# 使用方法:
+# 1. このファイルを .env にコピー
+# 2. your_gemini_api_key_here を実際のAPIキーに置換
+# 3. アプリケーションを再起動
+
+# 注意:
+# - APIキーは他人と共有しないでください
+# - .env ファイルはGitにコミットしないでください
+# - APIキーは定期的に更新することを推奨します
+
+# このファイルを .env にリネームして使用してください 
